@@ -9,6 +9,7 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 \include "makeOctaves.ly"
 \include "A.ly"
 \include "B.ly"
+\include "C.ly"
 \include "dynamics.ly"
 
 \paper {
@@ -44,6 +45,7 @@ primo-rh = {
   \tempo 4 = 152
   \A-primo-rh
   \B-primo-rh
+  \C-primo-rh
   % \bar "|."
 }
 primo-lh = {
@@ -51,6 +53,7 @@ primo-lh = {
   \clef treble
   \A-primo-lh
   \B-primo-lh
+  \C-primo-lh
   % \bar "|."
 }
 secondo-rh = {
@@ -58,6 +61,7 @@ secondo-rh = {
   \clef treble
   \A-secondo-rh
   \B-secondo-rh
+  \C-secondo-rh
   % \bar "|."
 }
 secondo-lh = {
@@ -65,6 +69,7 @@ secondo-lh = {
   \clef bass
   \A-secondo-lh
   \B-secondo-lh
+  \C-secondo-lh
   % \bar "|."
 }
 \score {
