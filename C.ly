@@ -49,11 +49,11 @@ C-secondo-rh = \relative c' {
   \tuplet 3/2 2 { q4 <c ees> <ees g> <g bes> <a c> <g bes>  }
   << { \appoggiatura { bes16 c } bes4 a2.~ a2 } \\ {fis1~ fis2 } >> r4
   << {
-    a4
+    a8. a16
     d2. c8 bes
-    c1
+    c4. f,8~ f2
     bes2. a8 g
-    a4. f8~ f4 f
+    a4. f8~ f4 f8. f16
   } \\ {
     d8. d16
     f1
@@ -68,7 +68,7 @@ C-secondo-rh = \relative c' {
 
 C-secondo-lh = \relative c {
   c1~
-  \tuplet 3/2 2 { c4 g'2 ees2 g4 }
+  c8 g'4. ees4 g
   fis2. a,4
   d2~ <d cis>2
 

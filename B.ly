@@ -72,7 +72,7 @@ B-secondo-rh = \relative c' {
     a2 r2
   } \\ {
     \repeat unfold 5 { <b, dis>8 }
-    \repeat unfold 5 { <b e>8 } <b d> <d fis> <e g b>
+    \repeat unfold 5 { <b e>8 } <b d> <d fis> <e g>
     <d g bes>8 <d g> q q q <bes d> q q
     \repeat unfold 4 { <a d fis>8 } \repeat unfold 2 { <a d>8 } \repeat unfold 2 { <d fis a>8 }
   } >>
@@ -99,5 +99,5 @@ B-secondo-lh = \relative c, {
 
   a8. d16 r8 d,~ d d' a d
   g,8. d'16 r8 <bes, bes'>~ q <c c'>4 <d d'>8~
-  q4. d8~ d2 q4. d8~ d2
+  q4. d8~ d2 q4. d8~ d8 d4.
 }

@@ -1,7 +1,7 @@
 A-primo-rh = \relative c'' {
   d2 r8 cis \acciaccatura dis e d
   a2 r8 fis g a
-  a4. g8~ g2
+  \acciaccatura g8 a4. g8~ g2
   R1
 
   e'2 r8 dis \acciaccatura e fis e
@@ -55,12 +55,12 @@ A-secondo-lh = \relative c, {
   e,8. b'16 r8 e~ e4 r8 b
   a8. e'16 r8 g~ g4 r8 e
   d,8. a'16 r8 d~ d4 r8 a
-  cis,8. a'16 r8 e'~ e4 r8 a,
+  cis,8. a'16 r8 cis~ cis4 r8 a
 
   c,8. a'16 r8 c~ c4 r8 a
   b,8. fis'16 r8 b~ b4 r8 b,
   e8. b'16 r8 e~ e4 r8 b
-  g8. bes16 r8 e~ e bes g4
+  g8. bes16 r8 e~ e bes4 g8
   
   a8. d16 r8 a'~ a4 r8 d,
   gis,8. e'16 r8 gis~ gis4 r8 gis,
