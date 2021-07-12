@@ -10,6 +10,7 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 \include "A.ly"
 \include "B.ly"
 \include "C.ly"
+\include "D.ly"
 \include "dynamics.ly"
 
 \paper {
@@ -46,6 +47,7 @@ primo-rh = {
   \A-primo-rh
   \B-primo-rh
   \C-primo-rh
+  \D-primo-rh
   % \bar "|."
 }
 primo-lh = {
@@ -54,6 +56,7 @@ primo-lh = {
   \A-primo-lh
   \B-primo-lh
   \C-primo-lh
+  \D-primo-lh
   % \bar "|."
 }
 secondo-rh = {
@@ -62,6 +65,7 @@ secondo-rh = {
   \A-secondo-rh
   \B-secondo-rh
   \C-secondo-rh
+  \D-secondo-rh
   % \bar "|."
 }
 secondo-lh = {
@@ -70,6 +74,7 @@ secondo-lh = {
   \A-secondo-lh
   \B-secondo-lh
   \C-secondo-lh
+  \D-secondo-lh
   % \bar "|."
 }
 \score {
