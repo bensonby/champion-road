@@ -11,7 +11,7 @@ D-primo-lh = \relative c' {
 }
 
 D-secondo-rh = \relative c' {
-  <a a'>4
+  <a a'>4\f
   <e' fis e'>4. <d fis d'>8~ q4 <a a'>
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
   <fis' b d fis>4. <e g e'>8~ q2
@@ -30,7 +30,19 @@ D-secondo-lh = \relative c, {
     d,4.-- d8~-- d4 d4
     fis4.-- fis8~-- fis4 d
     g4.-- g8~-- g4 g
-    a4.-- e~-- e4 g--
+    a4.-- e8~-- e4 g--
+    fis4.-- cis8~-- cis4 fis--
+    b4.-- fis8~-- fis4 b,--
+    c4.-- g'8~-- g4 c--
+    a4.-- e8~-- e4 a--
+    d,4.-- d8~-- d4 d'--
+    b4.-- b8~-- b4 a--
+    g4.-- d8~-- d4 g--
+    a4.-- e8~-- e4 g--
+    fis4.-- cis8~-- cis4 fis--
+    b4.-- b8~-- b4 b,--
+    c4.-- g'8~-- g4 c--
+    bes4.-- bes8~-- bes4 bes--
   } >>
   \ottava #0
 }

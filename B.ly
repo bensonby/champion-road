@@ -29,9 +29,9 @@ B-primo-lh = \relative c'' {
 
   e2\) r8 dis( fis) e-.
   d4. c8~ c bes4 c8
-  << { \appoggiatura { bes16 c } bes4. a8~ a2 s1 } \\ { r2 r8 d,4 e8~ e4 a,8 e'~ e fis4. } >>
+  << { \appoggiatura { bes16 c } bes4. a8~ a2 s1 } \\ { r4 fis8 a8 r d4 e8~ e4 a,8 e'~ e fis4. } >>
 
-  a'2~ a8 gis b a
+  a2~ a8 gis b a
   g4. fis8~ fis2
   g2~ g8 fis a g
   fis4. e8~ e2
@@ -57,11 +57,11 @@ B-secondo-rh = \relative c' {
   } >>
   \repeat unfold 8 { q8 }
   << {
-    r2 r8 d4 e8~
+    r4 fis8 a r8 d4 e8~
     e4 a,8 e'~ e fis4.
   } \\ {
-    \repeat unfold 5 { <fis a d>8 } \repeat unfold 3 { <fis a>8 }
-    <fis a>8 fis <e fis> fis <fis a> a a <a d>
+    \repeat unfold 2 { <fis, a d>8 } <a d> d \repeat unfold 4 { <fis, a>8 }
+    <fis a>8 q <e fis> <fis a> <a cis> <a d> q q
   } >>
 
   \clef treble

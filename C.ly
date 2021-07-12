@@ -40,11 +40,11 @@ C-primo-lh = \relative c'' {
 }
 
 C-secondo-rh = \relative c' {
-  <a d>4
-  <ees' g>1~
+  <a d>8. d16
+  <ees g>1~
   \tuplet 3/2 2 { q4 <c ees> <ees g> <g bes> <ees g> <g bes> }
   <d a'>1~
-  q2 r4 d
+  q2 r4 d8. d16
   <ees g>1~
   \tuplet 3/2 2 { q4 <c ees> <ees g> <g bes> <a c> <g bes>  }
   << { \appoggiatura { bes16 c } bes4 a2.~ a2 } \\ {fis1~ fis2 } >> r4
