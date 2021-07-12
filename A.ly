@@ -57,8 +57,8 @@ A-secondo-lh = \relative c, {
   d,8. a'16 r8 d~ d4 r8 a
   cis,8. a'16 r8 cis~ cis4 r8 a
 
-  c,8. a'16 r8 c~ c4 r8 a
-  b,8. fis'16 r8 b~ b4 r8 b,
+  c,8. g'16 r8 c~ c4 r8 g
+  b,8. fis'16 r8 b~ b4 r8 fis
   e8. b'16 r8 e~ e4 r8 b
   g8. bes16 r8 e~ e bes4 g8
   

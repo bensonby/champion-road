@@ -16,7 +16,7 @@ B-primo-rh = \relative c''' {
   fis4. e8~ e2
 
   fis2~ fis8 e g fis
-  e4. bes8~ bes c4 <fis, d'>8~
+  \appoggiatura { e16 fis } e4. bes8~ bes c4 <fis, d'>8~
   q1
   \ottava #0
   R1
@@ -37,7 +37,7 @@ B-primo-lh = \relative c'' {
   fis4. e8~ e2
 
   fis2~ fis8 e g fis
-  e4. bes8~ bes c4 d8~
+  \appoggiatura { e16 fis } e4. bes8~ bes c4 d8~
   d1
   R1
 }
@@ -76,7 +76,7 @@ B-secondo-rh = \relative c' {
     <d g bes>8 <d g> q q q <bes d> q q
     \repeat unfold 4 { <a d fis>8 } \repeat unfold 2 { <a d>8 } \repeat unfold 2 { <d fis a>8 }
   } >>
-  \repeat unfold 3 { <g, bes e>8 } <g bes>8 q <e g c> q <fis a d>~
+  \repeat unfold 3 { <g, bes c e>8 } <g bes>8 q <e g c> q <fis a d>~
   q4 <fis' a> <d fis>8 <e g> <fis a> <g bes>~
   q8 <fis a> <e g> <fis a>~ q4
 }
