@@ -77,7 +77,7 @@ B-secondo-rh = \relative c' {
 B-secondo-lh = \relative c, {
   d8.( a'16)-. r8 a,~-- a a'-. d,-.-- a'-.
   d,8.( a'16)-. r8 a,~-- a a'-. d,-.-- a'-.
-  d,8. b'16)-. r8 d,~-- d b'-. b,-.-- b'-.
+  d,8.( b'16)-. r8 d,~-- d b'-. b,-.-- b'-.
   d,8.( b'16)-. r8 d,~-- d b'-. b,-.-- b'-.
 
   d,8.( bes'16)-. r8 bes,~-- bes bes'-. d,-.-- bes'-.
