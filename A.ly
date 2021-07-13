@@ -47,23 +47,23 @@ A-secondo-rh = \relative c' {
 }
 
 A-secondo-lh = \relative c, {
-  d8. a'16 r8 d~ d4 r8 a
-  fis8. a16 r8 d~ d4 r8 a
-  g8. d'16 r8 g~ g4 r8 d
-  g,8. d'16 r8 g~ g8 fis r d
+  d8.( a'16)-. r8 d~( d4. a8)
+  fis8.( a16)-. r8 d~( d4. a8)
+  g8.( d'16)-. r8 g~( g4. d8)
+  g,8.( d'16)-. r8 g~( g8 fis4 d8)
   
-  e,8. b'16 r8 e~ e4 r8 b
-  a8. e'16 r8 g~ g4 r8 e
-  d,8. a'16 r8 d~ d4 r8 a
-  cis,8. a'16 r8 cis~ cis4 r8 a
+  e,8.( b'16)-. r8 e~ e4. b8
+  a8.( e'16)-. r8 g~ g4. e8
+  d,8.( a'16)-. r8 d~ d4. a8
+  cis,8.( a'16)-. r8 cis~ cis4. a8
 
-  c,8. g'16 r8 c~ c4 r8 g
-  b,8. fis'16 r8 b~ b4 r8 fis
-  e8. b'16 r8 e~ e4 r8 b
-  g8. bes16 r8 e~ e bes4 g8
+  c,8.( g'16)-. r8 c~ c4. g8
+  b,8.( fis'16)-. r8 b~ b4. fis8
+  e8.( b'16)-. r8 e~ e4. b8
+  g8.( bes16)-. r8 e~( e bes4)-. g8
   
-  a8. d16 r8 a'~ a4 r8 d,
-  gis,8. e'16 r8 gis~ gis4 r8 gis,
-  a8. e'16 r8 a~ a e a,4
-  bes8. f16 r8 c'~ c g c,4
+  a8.( d16)-. r8 a'~ a4. d,8
+  gis,8.( e'16)-. r8 gis~ gis4. gis,8
+  a8.( e'16)-. r8 a~( a e)-. a,4--
+  bes8.( f16)-. r8 c'~ c g c,4
 }
