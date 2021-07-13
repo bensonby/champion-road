@@ -7,8 +7,8 @@ C-primo-rh = \relative c'' {
   r4 a8. a16 f'4 c
   d4. bes8~ bes4 d
   c4. f8~ f2
-  s1
-  s1
+  s2. \ottava #2 s4
+  s2 \ottava #0 s2
   R1
   <e, g a e'>8. q16~ q8 <g a c e g>~ q <c e g c> <e g a e'>4
 }
@@ -88,6 +88,7 @@ C-secondo-lh = \relative c {
   } \\ {
     e4. e8~ e2
     e4. e8~ e2
+    \ottava #-1
     bes4. bes8~ bes2
     a4. a8
   } >>
