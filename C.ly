@@ -10,7 +10,7 @@ C-primo-rh = \relative c'' {
   s2. \ottava #2 s4
   s2 \ottava #0 s2
   R1
-  <e, g a e'>8. q16~ q8 <g a c e g>~ q <c e g c> <e g a e'>4
+  <g, a e'>8. q16~ q8 <g a c e g>~ q \ottava #1 <c e g c> <e g a e'>4 \ottava #0
 }
 
 C-primo-lh = \relative c'' {

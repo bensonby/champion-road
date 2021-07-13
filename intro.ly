@@ -4,18 +4,15 @@ intro-main = \relative c' {
   d8-.\) r r4 r2 R1
 }
 intro-primo-rh = \relative c'' {
-  <<
-    { \intro-main }
-    \transpose c c' { \intro-main }
-  >>
+  \transpose c c' { \intro-main }
 }
 intro-primo-lh = \relative c'' {
   \clef bass
-  \transpose c c, \intro-main
+  \transpose c c, { \intro-main }
 }
 intro-secondo-rh = \relative c' {
   \clef bass
-  \repeat unfold 2 { <bes d>8-. } bes-. bes-. bes-. \repeat unfold 3 { q-. }
+  \repeat unfold 8 { <bes d>8-. }
   \repeat unfold 3 { <c e>8-. } e-. e-. \repeat unfold 2 { q-. } c-.
   fis8-. fis-. \repeat unfold 6 { <d fis>8-. }
   \repeat unfold 8 { <c e>8-. }

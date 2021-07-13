@@ -42,7 +42,7 @@ A-secondo-rh = \relative c' {
   \repeat unfold 8 { <bes e>8-. }
   \repeat unfold 3 { <a fis'>8-. } \repeat unfold 5 { <d fis>8-. }
   \repeat unfold 8 { <b e>8-. }
-  \repeat unfold 3 { <a d>8-. } \repeat unfold 5 { <a cis>8-. }
+  \repeat unfold 3 { <a d>8-. } cis-. cis-. cis-. \repeat unfold 2 { <a cis>8-. }
   \repeat unfold 3 { <bes d>8-. } \repeat unfold 5 { <c e>8-. }
 }
 
