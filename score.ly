@@ -7,6 +7,7 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 
 \include "definitions.ly"
 \include "makeOctaves.ly"
+\include "intro.ly"
 \include "A.ly"
 \include "B.ly"
 \include "C.ly"
@@ -44,6 +45,7 @@ primo-rh = {
   \global
   \clef treble
   \tempo 4 = 152
+  \intro-primo-rh
   \A-primo-rh
   \B-primo-rh
   \C-primo-rh
@@ -53,6 +55,7 @@ primo-rh = {
 primo-lh = {
   \global
   \clef treble
+  \intro-primo-lh
   \A-primo-lh
   \B-primo-lh
   \C-primo-lh
@@ -62,6 +65,7 @@ primo-lh = {
 secondo-rh = {
   \global
   \clef treble
+  \intro-secondo-rh
   \A-secondo-rh
   \B-secondo-rh
   \C-secondo-rh
@@ -71,6 +75,7 @@ secondo-rh = {
 secondo-lh = {
   \global
   \clef bass
+  \intro-secondo-lh
   \A-secondo-lh
   \B-secondo-lh
   \C-secondo-lh

@@ -22,7 +22,7 @@ A-primo-rh = \relative c'' {
 
 A-primo-lh = \relative c'' {
   R1*15
-  r2 c16 d e f \cr g a bes c \cl
+  r2 \clef treble c16 d e f \cr g a bes c \cl
 }
 
 A-secondo-rh = \relative c' {
