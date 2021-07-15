@@ -13,13 +13,13 @@ D-primo-rh = \relative c {
   \cl fis,,,,16 a cis d \cr a' cis fis a fis' d[ a fis] d \cl e,[ d cis]
   fis, a d fis \cr d' a' cis d a' d,[ a fis] d \cl cis[ fis, d]
   g, b d e g \cr a b g' \cl b, cis dis e \cr fis g a b
-  cis16 b a g d' cis b a \ottava #1 a' g fis e dis e g b
+  cis16 b a g d' cis b a \ottava #1 e' dis e fis g a b d
 
-  a8 g e cis b16 cis e g b cis e8
-  \ottava #0
-  dis,16 a' gis fis cis a \cl gis cis, \cr
-  b'16 gis' fis cis \cl a gis fis8
-  \cr \ottava #1 b16 e g b c b g e d' c g e \ottava #0 d c g e
+  cis16 a e cis \ottava #0 \cl e, dis b gis \cr e dis cis b \cl a gis fis e
+
+  dis16 a' c fis \cr dis fis cis' dis \cl ais' b cis dis \cr \ottava #1 fis a c dis
+  e16 g, a c, \ottava #0 \cl a d, b fis \cr e b c g \cl fis e d c
+  s1
 }
 
 D-primo-lh = \relative c' {
@@ -30,10 +30,10 @@ D-primo-lh = \relative c' {
   a16 b cis d g,8-. a-> r8 e-. a4->
 
   s1*3
-  a16 g fis e b' a g fis cis' b a g fis g b d
-  cis16 g a cis e a, cis e g8 e cis a
+  a16 g fis e b' a g fis cis'8 c b bes
+  a4 s4 s2
   s1
-  g16 c e g a g e c b' a e c e c b g
+  s1
 }
 
 D-secondo-rh = \relative c' {
@@ -51,8 +51,8 @@ D-secondo-rh = \relative c' {
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
   <fis' b d fis>4. <e g e'>8~ q2
   r4 <e a cis e> <cis' e a cis> <b e g b>
-  <a cis fis a>2~ q8 q <b cis fis b> <c e a c>~
-  q4 <b dis fis b>8 <a dis fis a> r <fis a fis'>4 <g c e g>8~
+  <a cis e a>2~ q8 q <b cis e b'> <c e a c>~
+  q4 <b dis fis b>8 <a e' fis a> r <fis a dis fis>4 <g c e g>8~
   q2 r8 q8 <a c e a> <bes c g' bes>~
   q4 <a bes d a'>8 <bes d bes'> r <c e c'>4-. <d fis d'>8~
   q1
