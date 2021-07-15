@@ -18,7 +18,7 @@ D-primo-rh = \relative c {
   cis16 a e cis \ottava #0 \cl e, dis b gis \cr e dis cis b \cl a gis fis e
 
   dis16 a' c fis \cr dis fis cis' dis \cl ais' b cis dis \cr \ottava #1 fis a c dis
-  e16 g, a c, \ottava #0 \cl a d, b fis \cr e b c g \cl fis e d c
+  e16 g, a c, \ottava #0 \cl a d, b fis \cr e b c g \cl \clef bass fis e d c
   s1
 }
 
@@ -34,6 +34,7 @@ D-primo-lh = \relative c' {
   a4 s4 s2
   s1
   s1
+  bes,8 d fis g r a r4
 }
 
 D-secondo-rh = \relative c' {

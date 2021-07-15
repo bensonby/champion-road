@@ -29,16 +29,24 @@ B-primo-lh = \relative c'' {
 
   <e e'>2\) r8 dis'( fis) e-.
   d4. c8~ c bes4 c8
-  << { \appoggiatura { bes16 c } bes4. a8~ a2 s1 } \\ { r4 fis8-. a8-. r d8-. r e8~-- \stemNeutral e4 a,8( e')-. b8\rest fis'4.-- } >>
+  << { \appoggiatura { bes16 c } bes4. a8~ a2 s1 } \\ { r4 fis8-. a8-. r <d d,>8-. r <e e,>8~-- \stemNeutral <e e,>4 <a, a,>8( <e' e,>)-. b8\rest <fis' fis,>4.-- } >>
 
-  a2~ a8 gis b a
-  g4. fis8~ fis2
-  g2~ g8 fis a g
-  fis4. e8~ e2
+  << {
+    \stemNeutral a2~ a8 gis b a
+    \stemUp g4. fis8~ fis2
+    g2~ g8 fis a g
+    fis4. e8~ e2
 
-  fis2~ fis8 e g fis
-  \appoggiatura { e16 fis } e4. bes8~ bes c4 d8~
-  d1
+    fis2~ \stemNeutral fis8 e g fis
+    \appoggiatura { e16 fis } e4. bes8~ bes c4 d8~
+    d1
+  } \\ {
+    s1
+    r4 r8 fis,\( b fis g a
+    b2~ b8\) a\( b cis
+    d4 c8 bes~ bes g4.\)
+    a2
+  } >>
   R1
 }
 
@@ -50,25 +58,18 @@ B-secondo-rh = \relative c' {
   \repeat unfold 4 { <g bes>8-. } \repeat unfold 4 { <g bes e>8-. }
   \repeat unfold 8 { q8-. }
   << {
-    r4 fis8-. a-. r8 d8-. r e8~--
-    e4 a,8( e')-. r fis4.--
+    s4 fis8-. a-. s2
   } \\ {
-    \repeat unfold 2 { <fis, a d>8-. } d-. fis-. \repeat unfold 4 { <fis a>8-. }
-    <fis a>8-. q-. e-. cis'-. <a cis>-. <a d>-. q-. q-.
+    \repeat unfold 2 { <fis a d>8-. } d-. fis-. \repeat unfold 4 { <fis a>8-. }
   } >>
+  <fis a>8-. q-. <e fis>-. <e cis'>-. <a cis>-. <a d>-. q-. q-.
 
   \clef treble
   \repeat unfold 5 { <a c e>8-. } <a c dis>-. <a c fis>-. <a c e>-.
-  \repeat unfold 3 { <fis b dis>8-. } << { fis'8( b fis g a 
-    b2~ b8) a( b cis
-    d4 c8 bes~ bes g4.)
-    a2 s2
-  } \\ {
-    \repeat unfold 5 { <b, dis>8-. }
-    \repeat unfold 5 { <b e>8-. } <b d>-. <d fis>-. <e g>-.
-    <d g bes>8-. <d g>-. q-. q-. q-. <bes d>-. q-. q-.
-    \repeat unfold 4 { <a d fis>8-. } \stemNeutral \repeat unfold 2 { <a d>8-. } \repeat unfold 2 { <d fis a>8-. }
-  } >>
+  \repeat unfold 3 { <fis b dis>8-. } \repeat unfold 5 { <b dis>8-. }
+  \repeat unfold 5 { <b e>8-. } <b d>-. <d fis>-. <e g>-.
+  <d g bes>8-. <d g>-. q-. q-. q-. <bes d>-. q-. q-.
+  \repeat unfold 4 { <a d fis>8-. } \repeat unfold 2 { <a d>8-. } \repeat unfold 2 { <d fis a>8-. }
   \repeat unfold 3 { <g, bes c e>8-. } <g bes>8-. q-. <e g c>-. q-. <fis a d>~
   q4 <fis' a> <d fis>8( <e g>) <fis a>-. <g bes>~--
   q8 <fis a>-. <e g>-. <fis a>-. r4
