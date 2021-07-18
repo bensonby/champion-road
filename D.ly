@@ -1,23 +1,23 @@
 D-primo-rh = \relative c {
-  \cl fis16 a cis d \cr a' cis fis a fis' d[ a fis] d \cl e,[ d cis]
-  fis, a d fis \cr d' a' cis d \ottava #1 a' \ottava #0 d,[ a fis] d \cl cis[ fis, d]
+  \cl fis16 a cis d \cr \stemDown a' cis fis a \stemUp fis' \stemDown d[ a fis] d \stemNeutral \cl e,[ d cis]
+  fis, a d fis \cr \stemDown d' a' cis d \stemUp a' \stemDown d,[ a fis] d \cl \stemNeutral cis[ fis, d]
   g, b d e g \cr a b g' \cl b, cis dis e \cr fis g a b
   cis16 b a g d' cis b a e' d cis b fis' e d cis
 
-  \ottava #1 e16 b' a g fis \ottava #0 a, \cl fis a, fis e fis g a \cr gis' a fis'
+  \ottava #1 e16 b' a g fis a, \ottava #0 \cl fis a, fis e fis g a \cr gis' a fis'
   \ottava #1 dis a' gis fis \ottava #0 cis a \cl gis cis, \cr
   \ottava #1 fis''16 cis a dis, \ottava #0 \cl a gis fis8
   \cr \ottava #1 b16 e g b c b g e d' c g e \ottava #0 d c g e
   b'16 e, g a <e d'>8-. <a cis>-> a16 cis e a \ottava #1 <cis a'>4-> \ottava #0
 
-  \cl fis,,,,16 a cis d \cr a' cis fis a fis' d[ a fis] d \cl e,[ d cis]
-  fis, a d fis \cr d' a' cis d a' d,[ a fis] d \cl cis[ fis, d]
+  \cl fis,,,,16 a cis d \cr \stemDown a' cis fis a \stemUp fis' \stemDown d[ a fis] d \stemNeutral \cl e,[ d cis]
+  fis, a d fis \cr \stemDown d' a' cis d \stemUp a' \stemDown d,[ a fis] d \cl \stemNeutral cis[ fis, d]
   g, b d e g \cr a b g' \cl b, cis dis e \cr fis g a b
   cis16 b a g d' cis b a \ottava #1 e' dis e fis g a b d
 
   cis16 a e cis \ottava #0 \cl e, dis b gis \cr e dis cis b \cl a gis fis e
 
-  dis16 a' c fis \cr dis fis cis' dis \cl ais' b cis dis \cr \ottava #1 fis a c dis
+  dis16 a' c fis \cr dis fis cis'? dis \cl ais' b cis dis \cr \ottava #1 fis a c dis
   e16 g, a c, \ottava #0 \cl a e c fis, \cr e b c g \cl \clef bass fis e d c
   \cr bes'8 d fis g r a r4
 }

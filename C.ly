@@ -59,7 +59,7 @@ C-secondo-rh = \relative c' {
   } \\ {
     d8. d16
     f1
-    f4. c8~ c2
+    f4. \parenthesize c8~ c2
     g'1
     f
   } >>
