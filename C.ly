@@ -3,10 +3,10 @@ C-primo-rh = \relative c'' {
   s1*6
   s2. \ottava #0 s4
 
-  r4 f8. f16 bes2
-  r4 a8. a16 f'4 c
-  d4. bes8~ bes4 d
-  c4. f8~ f2
+  r4 f8.-- f16-- bes2--
+  r4 a8.-- a16-- f'4-- c--
+  d4.-- bes8~-- bes4 d--
+  c4.-- f8~-- f2
   s2. \ottava #2 s4
   s2 \ottava #0 s2
   R1
@@ -51,11 +51,11 @@ C-secondo-rh = \relative c' {
   \tuplet 3/2 2 { q4 <c ees> <ees g> <g bes> <a c> <g bes>  }
   << { \appoggiatura { bes16 c } bes4 a2.~ a2 } \\ {fis1~ fis2 } >> r4
   << {
-    a8. a16
-    d2. c8 bes
-    c4. f,8~ f2
-    bes2. a8 g
-    a4. f8~ f4 f8. f16
+    a8.-- a16--
+    d2. c8-. bes-.
+    c4.-- f,8~-- f2
+    bes2.-- a8-. g-.
+    a4.-- f8~-- f4 f8.-. f16-.
   } \\ {
     d8. d16
     f1
@@ -63,7 +63,7 @@ C-secondo-rh = \relative c' {
     g'1
     f
   } >>
-  <g, e' g>4 << { g4 d'2~ \stemNeutral \tuplet 3/2 2 { <g, b d>4 \makeOctaves 1 { d4 g b g } <d' b' d> } } \\ { r4 <g, b>8 q q q s1 } >>
+  <g, e' g>4 << { g4-- d'2~-- \stemNeutral \tuplet 3/2 2 { <g, b d>4 \makeOctaves 1 { d4 g b g } <d' b' d> } } \\ { r4 <g, b>8 q q q s1 } >>
   <f' d' f>2. <d bes' d>4
   <e c' e>2 r4
 }

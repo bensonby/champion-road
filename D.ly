@@ -77,7 +77,7 @@ D-secondo-lh = \relative c, {
     fis4.-- cis8~-- cis4 fis--
     b4.-- b8~-- b4 b,--
     c4.-- g'8~-- g4 c--
-    bes,4.-- bes8~-- bes4 bes--
+    bes,4.-- bes8~-- bes8 bes4--
   } \\ {
     \repeat unfold 8 { d,8-. }
     \repeat unfold 6 { fis8-. } \repeat unfold 2 { d8-. }
@@ -94,7 +94,9 @@ D-secondo-lh = \relative c, {
     \repeat unfold 3 { fis8-. } \repeat unfold 3 { cis8-. } \repeat unfold 2 { fis8-. }
     \repeat unfold 6 { b8-. } \repeat unfold 2 { b,8-. }
     \repeat unfold 3 { c8-. } \repeat unfold 3 { g'8-. } \repeat unfold 2 { c8-. }
-    \repeat unfold 8 { bes,8-. }
+    \repeat unfold 4 { bes,8-. } bes8-.[ bes-. bes-.]
   } >>
   \ottava #0
+  <d d'>8~
+  q8.( a''16)-.
 }

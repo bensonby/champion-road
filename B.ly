@@ -42,9 +42,9 @@ B-primo-lh = \relative c'' {
     d1
   } \\ {
     s1
-    r4 r8 fis,\( b fis g a
-    b2~ b8\) a\( b cis
-    d4 c8 bes~ bes g4.\)
+    r4 r8 fis,-.\( b-. fis-. g-. a-.
+    b2~-- b8\) a-. b-. cis-.
+    d4\( c8 bes~ bes g4.\)
     a2
   } >>
   R1

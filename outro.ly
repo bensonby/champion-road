@@ -16,8 +16,9 @@ outro-secondo-rh = \relative c'' {
   <bes ees g bes>\arpeggio
 }
 
-outro-secondo-lh = \relative c, {
-  <d d,>8.( a'16)-. r8 d~(-- d4. a8)
+outro-secondo-lh = \relative c {
+  % <d d,>8.( a'16)-. % written in D.ly
+  r8 d~(-- d4. a8)
   d,8.( g16)-. r8 bes~(-- bes4. g8)
   d8.( a'16)-. r8 c~(-- c4. a8)
   d,8.( g16)-. r8 bes~(-- bes4. g8)
