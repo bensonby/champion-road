@@ -17,19 +17,25 @@ A-primo-rh = \relative c'' {
   fis2-- r8 eis( g)-. fis-.
   \acciaccatura fis8 e4.-- dis8~-- dis fis8 r e8-.
   d4.-- cis8~-- cis2
-  \appoggiatura { bes16 c } d4.-- e8~-- e2
+  \appoggiatura { bes16 c } d4.-- << { \stemNeutral e8~-- e2 } \\ {
+    s8 \cl \clef treble \stemNeutral \shpSlurA c16\( d e
+    \once \override Glissando.style = #'dashed-line
+    f
+    \glissando \cr g a bes c
+    d2--\)
+  } >>
 }
 
 A-primo-lh = \relative c'' {
   R1*15
-  r2 \clef treble c16 d e f \cr g a bes c \cl
+  r2 s2
 }
 
 A-secondo-rh = \relative c' {
   <d fis>8-.^\p \repeat unfold 7 { q8-. }
   \repeat unfold 8 { <a d>8-. }
-  \repeat unfold 14 { <b d>8-. }
-  \repeat unfold 2 { <b g'>8-. }
+  \repeat unfold 11 { <b d>8-. }
+  \repeat unfold 5 { <d g>8-. }
 
   \repeat unfold 8 { <e g>8-. }
   \repeat unfold 8 { <e g>8-. }

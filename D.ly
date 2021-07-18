@@ -19,7 +19,7 @@ D-primo-rh = \relative c {
 
   dis16 a' c fis \cr dis fis cis'? dis \cl ais' b cis dis \cr \ottava #1 fis a c dis
   e16 g, a c, \ottava #0 \cl a e c fis, \cr e b c g \cl \clef bass fis e d c
-  \cr bes'8 d fis g r a r4
+  \cr bes'8-> d-> fis-> g-> r a-> r4
 }
 
 D-primo-lh = \relative c' {
@@ -34,11 +34,11 @@ D-primo-lh = \relative c' {
   a4 \clef treble s4 s4 \clef bass s4
   s2 \clef treble s2
   s1
-  bes,8 d fis g r a r4
+  bes,8-> d-> fis-> g-> r a-> r4
 }
 
 D-secondo-rh = \relative c' {
-  <a a'>4\f
+  <a a'>4
   <e' fis e'>4. <d fis d'>8~ q4 <a a'>
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
   <fis' b d fis>4. <e g e'>8~ q2
@@ -55,7 +55,7 @@ D-secondo-rh = \relative c' {
   <a fis' a>2~ q8 q <b g' b> <c a' c>~
   q4 <b g' b>8 <a fis' a> r <fis dis' fis>4 <g e' g>8~
   q2 r8 q8 <a fis' a> <bes g' bes>~
-  q4 <a fis' a>8 <bes g' bes> r <c a' c>4-. <d fis d'>8~
+  q4 <a fis' a>8-> <bes g' bes>-> r <c a' c>8-> r <d fis d'>8~->
   q1
 }
 
@@ -97,6 +97,6 @@ D-secondo-lh = \relative c, {
     \repeat unfold 4 { bes,8-. } bes8-.[ bes-. bes-.]
   } >>
   \ottava #0
-  <d d'>8~
+  <d d'>8~->
   q8.( a''16)-.
 }

@@ -1,5 +1,6 @@
 B-primo-rh = \relative c''' {
-  d2-- r8 cis( e)-. d-.
+  % d2-- % written in A.ly for articulation purpose
+  r8 cis( e)-. d-.
   a2-- r8 fis( g)-. a-.
   a4.-- gis8~-- gis2~
   gis2 r
@@ -55,7 +56,7 @@ B-secondo-rh = \relative c' {
   \repeat unfold 8 { <a d fis>8-. }
   \repeat unfold 6 { <gis b e>8-. } \repeat unfold 2 { <gis b>8-. }
   \repeat unfold 3 { <gis b>8-. } b-. b-. <e, gis>-. q-. <gis b>-.
-  \repeat unfold 4 { <g bes>8-. } \repeat unfold 4 { <g bes e>8-. }
+  \repeat unfold 3 { <g bes>8-. } \repeat unfold 5 { <g bes e>8-. }
   \repeat unfold 8 { q8-. }
   << {
     s4 fis8-. a-. s2
