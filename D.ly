@@ -6,7 +6,7 @@ D-primo-rh = \relative c {
 
   \ottava #1 e16 b' a g fis \ottava #0 a, \cl fis a, fis e fis g a \cr gis' a fis'
   \ottava #1 dis a' gis fis \ottava #0 cis a \cl gis cis, \cr
-  b'16 gis' fis cis \cl a gis fis8
+  \ottava #1 fis''16 cis a dis, \ottava #0 \cl a gis fis8
   \cr \ottava #1 b16 e g b c b g e d' c g e \ottava #0 d c g e
   b'16 e, g a <e d'>8-. <a cis>-> a16 cis e \ottava #1 a <cis a'>4-> \ottava #0
 
@@ -27,10 +27,10 @@ D-primo-lh = \relative c' {
   a16 g fis e b' a g fis cis' b a g d' cis b a
   s1*2
   g16 c e g a g e c b' a e c e c b g
-  a16 b cis d g,8-. a-> r8 e-. a4->
+  \clef bass a16 b cis d g,8-. a-> r8 e-. a,4->
 
-  s1*3
-  a16 g fis e b' a g fis cis'8 c b bes
+  \clef treble s1*3
+  a'16 g fis e b' a g fis cis'8 c b bes
   a4 s4 s2
   s1
   s1
@@ -46,7 +46,7 @@ D-secondo-rh = \relative c' {
   <a cis e a>2~ q8 q8 <b cis e b'> <fis a dis fis>~
   q2~ q8 <e fis b e> <fis b dis fis> <g c e g>~
   q2~ q8 <a c e a> <g c e g> <fis a d fis>~
-  q8 <d d'> <fis a fis'> <e a cis e> r4 <a, a'>4
+  q8 <fis d'> <fis a fis'> <e a cis e> r4 <a, a'>4
 
   <e' fis e'>4. <d fis d'>8~ q4 <a a'>
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
