@@ -26,15 +26,17 @@ C-primo-lh = \relative c'' {
     \cr fis''8 d a d a fis a fis d a fis d \cl
   }
 
+  \clef bass
   \repeat unfold 8 { <f,, bes d>8-. }
   \repeat unfold 8 { <f a c>8-. }
   \repeat unfold 8 { <g bes d>8-. }
   \repeat unfold 8 { <f a c>8-. }
 
   \tuplet 3/2 4 {
-    b8 d g \cr b d g \cl b d g \cr b d g
+    b8 d g \cr b d g \cl \clef treble b d g \cr b d g
     b g d b g d \cl b g d \cr b g b, \cl
   }
+  \clef bass
   \repeat unfold 8 { <f a bes>8-. }
   \repeat unfold 6 { <e g a>8-. } <e g>-. q-.
 }

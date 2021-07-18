@@ -8,7 +8,7 @@ D-primo-rh = \relative c {
   \ottava #1 dis a' gis fis \ottava #0 cis a \cl gis cis, \cr
   \ottava #1 fis''16 cis a dis, \ottava #0 \cl a gis fis8
   \cr \ottava #1 b16 e g b c b g e d' c g e \ottava #0 d c g e
-  b'16 e, g a <e d'>8-. <a cis>-> a16 cis e \ottava #1 a <cis a'>4-> \ottava #0
+  b'16 e, g a <e d'>8-. <a cis>-> a16 cis e a \ottava #1 <cis a'>4-> \ottava #0
 
   \cl fis,,,,16 a cis d \cr a' cis fis a fis' d[ a fis] d \cl e,[ d cis]
   fis, a d fis \cr d' a' cis d a' d,[ a fis] d \cl cis[ fis, d]
@@ -23,16 +23,16 @@ D-primo-rh = \relative c {
 }
 
 D-primo-lh = \relative c' {
-  s1*3
-  a16 g fis e b' a g fis cis' b a g d' cis b a
-  s1*2
+  s1 s2 s4 \clef treble s4 s1
+  \clef bass a16 g fis e b' a g fis cis' b a g d' cis b a
+  s4 \clef treble s2. s1
   g16 c e g a g e c b' g e c e c b g
   \clef bass a16 b cis d g,8-. a-> r8 e-. a,4->
 
-  \clef treble s1*3
-  a'16 g fis e b' a g fis cis'8 c b bes
-  a4 s4 s2
-  s1
+  s1 s2. \clef treble s4 s1
+  \clef bass a'16 g fis e b' a g fis cis'8 c b bes
+  a4 \clef treble s4 s4 \clef bass s4
+  s2 \clef treble s2
   s1
   bes,8 d fis g r a r4
 }
