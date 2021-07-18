@@ -26,7 +26,7 @@ D-primo-lh = \relative c' {
   s1*3
   a16 g fis e b' a g fis cis' b a g d' cis b a
   s1*2
-  g16 c e g a g e c b' a e c e c b g
+  g16 c e g a g e c b' g e c e c b g
   \clef bass a16 b cis d g,8-. a-> r8 e-. a,4->
 
   \clef treble s1*3
