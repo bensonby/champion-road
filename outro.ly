@@ -13,11 +13,11 @@ outro-primo-lh = \relative c' {
 outro-secondo-rh = \relative c'' {
   <ees g bes ees>1
   <c f a d>
-  <bes ees g bes>
+  <bes ees g bes>\arpeggio
 }
 
 outro-secondo-lh = \relative c, {
-  d8.( a'16)-. r8 d~(-- d4. a8)
+  <d d,>8.( a'16)-. r8 d~(-- d4. a8)
   d,8.( g16)-. r8 bes~(-- bes4. g8)
   d8.( a'16)-. r8 c~(-- c4. a8)
   d,8.( g16)-. r8 bes~(-- bes4. g8)

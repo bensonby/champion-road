@@ -83,16 +83,16 @@ C-secondo-lh = \relative c {
   a4. a8~ a4 a
   g4. g8~ g4 g
   f4. f8~ f4 f
+  \ottava #-1
   << {
+    e4. e8~ e2
+    e4. e8~ e2
+    bes4. bes8~ bes2
+    a4. a8
+  } \\ {
     \repeat unfold 16 { e8 }
     \repeat unfold 8 { bes8 }
     \repeat unfold 4 { a8 }
-  } \\ {
-    e4. e8~ e2
-    e4. e8~ e2
-    \ottava #-1
-    bes4. bes8~ bes2
-    a4. a8
   } >>
   \makeOctaves 1 {
     a8 a a a

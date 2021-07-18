@@ -26,7 +26,7 @@ D-primo-lh = \relative c' {
   s1 s2 s4 \clef treble s4 s1
   \clef bass a16 g fis e b' a g fis cis' b a g d' cis b a
   s4 \clef treble s2. s1
-  g16 c e g a g e c b' g e c e c b g
+  g16 c e g a g e c b' a e c e c b g
   \clef bass a16 b cis d g,8-. a-> r8 e-. a,4->
 
   s1 s2. \clef treble s4 s1
@@ -45,7 +45,7 @@ D-secondo-rh = \relative c' {
   r4 <e a cis e> <fis a cis fis> <g b e g>
   <a cis e a>2~ q8 q8 <b cis e b'> <fis a dis fis>~
   q2~ q8 <e fis b e> <fis b dis fis> <g c e g>~
-  q2~ q8 <a c e a> <g c e g> <fis a d fis>~
+  q2~ <c e g>8 <c e a> <g c e g> <fis a d fis>~
   q8 <fis d'> <fis a fis'> <e a cis e> r4 <a, a'>4
 
   <e' fis e'>4. <d fis d'>8~ q4 <a a'>
@@ -62,23 +62,6 @@ D-secondo-rh = \relative c' {
 D-secondo-lh = \relative c, {
   \ottava #-1
   << {
-    \repeat unfold 8 { d8-. }
-    \repeat unfold 8 { d8-. }
-    \repeat unfold 8 { g8-. }
-    \repeat unfold 3 { a8-. } e e e g g
-    r8 cis, cis r cis cis r cis
-    r8 fis fis r fis fis r b,
-    r8 c c r e e r e
-    r8 e e r e e r e
-    r8 a, a r a a r a
-    r8 fis' fis r fis fis r fis
-    r8 d d r d d r d
-    r8 e e r e e r e
-    r8 cis cis r cis cis r cis
-    r8 fis fis r fis, fis r fis
-    r8 c' c r e e r e
-    \repeat unfold 8 { bes,8-. }
-  } \\ {
     d4.-- d8~-- d4 d4
     fis4.-- fis8~-- fis4 d
     g4.-- g8~-- g4 g
@@ -94,7 +77,24 @@ D-secondo-lh = \relative c, {
     fis4.-- cis8~-- cis4 fis--
     b4.-- b8~-- b4 b,--
     c4.-- g'8~-- g4 c--
-    bes4.-- bes8~-- bes4 bes--
+    bes,4.-- bes8~-- bes4 bes--
+  } \\ {
+    \repeat unfold 8 { d,8-. }
+    \repeat unfold 6 { fis8-. } \repeat unfold 2 { d8-. }
+    \repeat unfold 8 { g8-. }
+    \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { g8-. }
+    \repeat unfold 3 { fis8-. } \repeat unfold 3 { cis8-. } \repeat unfold 2 { fis8-. }
+    \repeat unfold 3 { b8-. } \repeat unfold 3 { fis8-. } \repeat unfold 2 { b,8-. }
+    \repeat unfold 3 { c8-. } \repeat unfold 3 { g'8-. } \repeat unfold 2 { c8-. }
+    \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { a8-. }
+    \repeat unfold 6 { d,8-. } \repeat unfold 2 { d'8-. }
+    \repeat unfold 6 { b8-. } \repeat unfold 2 { a8-. }
+    \repeat unfold 3 { g8-. } \repeat unfold 3 { d8-. } \repeat unfold 2 { g8-. }
+    \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { g8-. }
+    \repeat unfold 3 { fis8-. } \repeat unfold 3 { cis8-. } \repeat unfold 2 { fis8-. }
+    \repeat unfold 6 { b8-. } \repeat unfold 2 { b,8-. }
+    \repeat unfold 3 { c8-. } \repeat unfold 3 { g'8-. } \repeat unfold 2 { c8-. }
+    \repeat unfold 8 { bes,8-. }
   } >>
   \ottava #0
 }

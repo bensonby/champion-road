@@ -1,44 +1,44 @@
 B-primo-rh = \relative c''' {
-  d2 r8 cis( e) d-.
-  a2 r8 fis( g) a-.
-  a4. gis8~ gis2
-  R1
+  d2-- r8 cis( e)-. d-.
+  a2-- r8 fis( g)-. a-.
+  a4.-- gis8~-- gis2~
+  gis2 r
 
-  e'2 r8 dis( fis) e-.
-  d4. c8~ c bes4 c8
-  \appoggiatura { bes16 c } bes4. a8~ a2
-  r2 r4 \tuplet 7/4 { \cl a16 b cis \cr d e fis g }
+  e'2-- r8 dis( fis)-. e-.
+  d4.-- c8~-- c bes8 r c8-.
+  \appoggiatura { bes16 c } bes4.-- a8~-- a2~
+  a2 r4 \tuplet 7/4 { \cl a16 b cis \cr d e fis g }
 
   \ottava #1
-  a2~ a8 gis b a
-  g4. fis8~ fis2
-  g2~ g8 fis a g
-  fis4. e8~ e2
+  a2~-- a8 gis( b)-. a-.
+  g4.-- fis8~-- fis2
+  g2~-- g8 fis( a)-. g-.
+  fis4.-- e8~-- e2
 
-  fis2~ fis8 e g fis
-  \appoggiatura { e16 fis } e4. bes8~ bes c4 <fis, d'>8~
+  fis2~-- fis8 e( g)-. fis-.
+  \appoggiatura { e16 fis } e4.-- bes8~---. bes c4---. <fis, d'>8~--
   q1
   \ottava #0
   R1
 }
 
 B-primo-lh = \relative c'' {
-  d2 r8 cis( e) d-.
-  a2 r8 fis( g) a-.
-  << { a4. gis8~ gis2 s1 } \\ { r2 r4 \makeOctaves 1 { e,4-- fis4.( gis8) r b4---. d8---. } } >>
+  d2-- r8 cis( e)-. d-.
+  a2-- r8 fis( g)-. a-.
+  << { a4.-- gis8~-- gis2 s1 } \\ { r2 r4 \makeOctaves 1 { e,4-- fis4.(-- gis8)-. r b4---. d8---. } } >>
 
-  <e e'>2\) r8 dis'( fis) e-.
-  d4. c8~ c bes4 c8
-  << { \appoggiatura { bes16 c } bes4. a8~ a2 s1 } \\ { r4 fis8-. a8-. r <d d,>8-. r <e e,>8~-- \stemNeutral <e e,>4 <a, a,>8( <e' e,>)-. b8\rest <fis' fis,>4.-- } >>
+  <e e'>2\)-- r8 dis'( fis)-. e-.
+  d4.-- c8~-- c bes8 r c8-.
+  << { \appoggiatura { bes16 c } bes4.-- a8~-- a2 s1 } \\ { r4 fis8-. a8-. r <d d,>8-. r <e e,>8~-- \stemNeutral <e e,>4 <a, a,>8( <e' e,>)-. b8\rest <fis' fis,>4.-- } >>
 
   << {
-    \stemNeutral a2~ a8 gis b a
-    \stemUp g4. fis8~ fis2
-    g2~ g8 fis a g
-    fis4. e8~ e2
+    \stemNeutral a2~-- a8 gis( b)-. a-.
+    \stemUp g4.-- fis8~-- fis2
+    g2~-- g8 fis( a)-. g-.
+    fis4.-- e8~-- e2
 
-    fis2~ \stemNeutral fis8 e g fis
-    \appoggiatura { e16 fis } e4. bes8~ bes c4 d8~
+    fis2~-- \stemNeutral fis8 e( g)-. fis-.
+    \appoggiatura { e16 fis } e4.-- bes8~---. bes c4---. d8~--
     d1
   } \\ {
     s1

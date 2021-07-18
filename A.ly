@@ -1,23 +1,23 @@
 A-primo-rh = \relative c'' {
-  d2 r8 cis \acciaccatura dis e d
-  a2 r8 fis g a
-  \acciaccatura g8 a4. g8~ g2
-  R1
+  d2-- r8 cis( \acciaccatura dis e)-. d-.
+  a2-- r8 fis( g)-. a-.
+  \acciaccatura g8 a4.-- g8~-- g2~
+  g2 r2
 
-  e'2 r8 dis \acciaccatura e fis e
-  d4. cis8~ cis b4 cis8
-  \appoggiatura { b16 cis } b4. a8~ a2
-  R1
+  e'2-- r8 dis( \acciaccatura e fis)-. e-.
+  d4.-- cis8~-- cis b8 r cis8-.
+  \appoggiatura { b16 cis } b4.-- a8~-- a2~
+  a2 r
 
-  a'2~ a8 gis \acciaccatura ais b a
-  g4. fis8~ fis2
-  g2~ g8 fis \acciaccatura gis a g
-  fis4. e8~ e2
+  a'2~-- a8 gis( \acciaccatura ais b)-. a-.
+  g4.-- fis8~-- fis2
+  g2~-- g8 fis( \acciaccatura gis a)-. g-.
+  fis4.-- e8~-- e2
 
-  fis2 r8 eis g fis
-  \acciaccatura fis8 e4. dis8~ dis fis4 e8
-  d4. cis8~ cis2
-  d4. e8~ e2
+  fis2-- r8 eis( g)-. fis-.
+  \acciaccatura fis8 e4.-- dis8~-- dis fis8 r e8-.
+  d4.-- cis8~-- cis2
+  \appoggiatura { bes16 c } d4.-- e8~-- e2
 }
 
 A-primo-lh = \relative c'' {
@@ -28,8 +28,8 @@ A-primo-lh = \relative c'' {
 A-secondo-rh = \relative c' {
   <d fis>8-.^\p \repeat unfold 7 { q8-. }
   \repeat unfold 8 { <a d>8-. }
-  \repeat unfold 8 { <b d>8-. }
-  \repeat unfold 8 { <d g>8-. }
+  \repeat unfold 14 { <b d>8-. }
+  \repeat unfold 2 { <b g'>8-. }
 
   \repeat unfold 8 { <e g>8-. }
   \repeat unfold 8 { <e g>8-. }
