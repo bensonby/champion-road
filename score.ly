@@ -12,6 +12,7 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 \include "B.ly"
 \include "C.ly"
 \include "D.ly"
+\include "outro.ly"
 \include "dynamics.ly"
 
 \paper {
@@ -46,41 +47,49 @@ primo-rh = {
   \clef treble
   \tempo 4 = 152
   \intro-primo-rh
-  \A-primo-rh
-  \B-primo-rh
-  \C-primo-rh
-  \D-primo-rh
-  % \bar "|."
+  \repeat volta 2 {
+    \A-primo-rh
+    \B-primo-rh
+    \C-primo-rh
+    \D-primo-rh
+    \outro-primo-rh
+  }
 }
 primo-lh = {
   \global
   \clef treble
   \intro-primo-lh
-  \A-primo-lh
-  \B-primo-lh
-  \C-primo-lh
-  \D-primo-lh
-  % \bar "|."
+  \repeat volta 2 {
+    \A-primo-lh
+    \B-primo-lh
+    \C-primo-lh
+    \D-primo-lh
+    \outro-primo-lh
+  }
 }
 secondo-rh = {
   \global
   \clef treble
   \intro-secondo-rh
-  \A-secondo-rh
-  \B-secondo-rh
-  \C-secondo-rh
-  \D-secondo-rh
-  % \bar "|."
+  \repeat volta 2 {
+    \A-secondo-rh
+    \B-secondo-rh
+    \C-secondo-rh
+    \D-secondo-rh
+    \outro-secondo-rh
+  }
 }
 secondo-lh = {
   \global
   \clef bass
   \intro-secondo-lh
-  \A-secondo-lh
-  \B-secondo-lh
-  \C-secondo-lh
-  \D-secondo-lh
-  % \bar "|."
+  \repeat volta 2 {
+    \A-secondo-lh
+    \B-secondo-lh
+    \C-secondo-lh
+    \D-secondo-lh
+    \outro-secondo-lh
+  }
 }
 \score {
   \new StaffGroup <<

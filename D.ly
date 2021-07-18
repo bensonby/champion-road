@@ -18,8 +18,8 @@ D-primo-rh = \relative c {
   cis16 a e cis \ottava #0 \cl e, dis b gis \cr e dis cis b \cl a gis fis e
 
   dis16 a' c fis \cr dis fis cis' dis \cl ais' b cis dis \cr \ottava #1 fis a c dis
-  e16 g, a c, \ottava #0 \cl a d, b fis \cr e b c g \cl \clef bass fis e d c
-  s1
+  e16 g, a c, \ottava #0 \cl a e c fis, \cr e b c g \cl \clef bass fis e d c
+  \cr bes'8 d fis g r a r4
 }
 
 D-primo-lh = \relative c' {
@@ -52,10 +52,10 @@ D-secondo-rh = \relative c' {
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
   <fis' b d fis>4. <e g e'>8~ q2
   r4 <e a cis e> <cis' e a cis> <b e g b>
-  <a cis e a>2~ q8 q <b cis e b'> <c e a c>~
-  q4 <b dis fis b>8 <a e' fis a> r <fis a dis fis>4 <g c e g>8~
-  q2 r8 q8 <a c e a> <bes c g' bes>~
-  q4 <a bes d a'>8 <bes d bes'> r <c e c'>4-. <d fis d'>8~
+  <a fis' a>2~ q8 q <b g' b> <c a' c>~
+  q4 <b g' b>8 <a fis' a> r <fis dis' fis>4 <g e' g>8~
+  q2 r8 q8 <a fis' a> <bes g' bes>~
+  q4 <a fis' a>8 <bes g' bes> r <c a' c>4-. <d fis d'>8~
   q1
 }
 
@@ -77,9 +77,9 @@ D-secondo-lh = \relative c, {
     r8 cis cis r cis cis r cis
     r8 fis fis r fis, fis r fis
     r8 c' c r e e r e
-    s1
+    \repeat unfold 8 { bes,8-. }
   } \\ {
-    d,4.-- d8~-- d4 d4
+    d4.-- d8~-- d4 d4
     fis4.-- fis8~-- fis4 d
     g4.-- g8~-- g4 g
     a4.-- e8~-- e4 g--
@@ -96,6 +96,5 @@ D-secondo-lh = \relative c, {
     c4.-- g'8~-- g4 c--
     bes4.-- bes8~-- bes4 bes--
   } >>
-  d1
   \ottava #0
 }
