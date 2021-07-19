@@ -13,6 +13,7 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 \include "C.ly"
 \include "D.ly"
 \include "outro.ly"
+\include "world-clear.ly"
 \include "dynamics.ly"
 
 \paper {
@@ -54,6 +55,8 @@ primo-rh = {
     \D-primo-rh
     \outro-primo-rh
   }
+  \world-clear-primo-rh
+  \bar "|."
 }
 primo-lh = {
   \global
@@ -66,6 +69,8 @@ primo-lh = {
     \D-primo-lh
     \outro-primo-lh
   }
+  \world-clear-primo-lh
+  \bar "|."
 }
 secondo-rh = {
   \global
@@ -78,6 +83,8 @@ secondo-rh = {
     \D-secondo-rh
     \outro-secondo-rh
   }
+  \world-clear-secondo-rh
+  \bar "|."
 }
 secondo-lh = {
   \global
@@ -90,6 +97,8 @@ secondo-lh = {
     \D-secondo-lh
     \outro-secondo-lh
   }
+  \world-clear-secondo-lh
+  \bar "|."
 }
 \score {
   \new StaffGroup <<
