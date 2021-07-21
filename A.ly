@@ -32,7 +32,7 @@ A-primo-lh = \relative c'' {
 }
 
 A-secondo-rh = \relative c' {
-  <d fis>8-.^\p \repeat unfold 7 { q8-. }
+  <d fis>8-. \repeat unfold 7 { q8-. }
   \repeat unfold 8 { <a d>8-. }
   \repeat unfold 11 { <b d>8-. }
   \repeat unfold 5 { <d g>8-. }
@@ -44,7 +44,7 @@ A-secondo-rh = \relative c' {
 
   \repeat unfold 8 { <c e>8-. }
   \repeat unfold 8 { <b dis>8-. }
-  \repeat unfold 8 { <g e'>8-. }
+  \repeat unfold 8 { <b e>8-. }
   \repeat unfold 8 { <bes e>8-. }
   \repeat unfold 3 { <a fis'>8-. } \repeat unfold 5 { <d fis>8-. }
   \repeat unfold 8 { <b e>8-. }

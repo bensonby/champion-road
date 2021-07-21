@@ -53,8 +53,13 @@ primo-rh = {
     \B-primo-rh
     \C-primo-rh
     \D-primo-rh
-    \outro-primo-rh
+    \outro-A-primo-rh
   }
+  \alternative {
+    \outro-B-primo-rh
+    \outro-C-primo-rh
+  }
+  \outro-D-primo-rh
   \world-clear-primo-rh
   \bar "|."
 }
@@ -67,8 +72,13 @@ primo-lh = {
     \B-primo-lh
     \C-primo-lh
     \D-primo-lh
-    \outro-primo-lh
+    \outro-A-primo-lh
   }
+  \alternative {
+    \outro-B-primo-lh
+    \outro-C-primo-lh
+  }
+  \outro-D-primo-lh
   \world-clear-primo-lh
   \bar "|."
 }
@@ -81,8 +91,13 @@ secondo-rh = {
     \B-secondo-rh
     \C-secondo-rh
     \D-secondo-rh
-    \outro-secondo-rh
+    \outro-A-secondo-rh
   }
+  \alternative {
+    \outro-B-secondo-rh
+    \outro-C-secondo-rh
+  }
+  \outro-D-secondo-rh
   \world-clear-secondo-rh
   \bar "|."
 }
@@ -95,8 +110,14 @@ secondo-lh = {
     \B-secondo-lh
     \C-secondo-lh
     \D-secondo-lh
-    \outro-secondo-lh
+    \outro-A-secondo-lh
   }
+  \alternative {
+    \outro-B-secondo-lh
+    \outro-C-secondo-lh
+  }
+  \outro-D-secondo-lh
+  \bar "||"
   \world-clear-secondo-lh
   \bar "|."
 }

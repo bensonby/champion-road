@@ -43,17 +43,17 @@ D-secondo-rh = \relative c' {
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
   <fis' b d fis>4. <e g e'>8~ q2
   r4 <e a cis e> <fis a cis fis> <g b e g>
-  <a cis e a>2~ q8 q8 <b cis e b'> <fis a dis fis>~
-  q2~ q8 <e fis b e> <fis b dis fis> <g c e g>~
-  q2~ <c e g>8 <c e a> <g c e g> <fis a d fis>~
-  q8 <fis d'> <fis a fis'> <e a cis e> r4 <a, a'>4
+  <a cis e a>2~ q8 q8( <b cis e b'>)-. <fis a dis fis>~
+  q2~ q8 <e fis b e>( <fis b dis fis>)-. <g c e g>~
+  q2~ <c e g>8 <c e a>\( <g c e g> <fis a d fis>~
+  q8 <fis d'> <fis a fis'> <e a cis e>~ q4\) <a, a'>4
 
   <e' fis e'>4. <d fis d'>8~ q4 <a a'>
   <e' a e'>4. <d fis d'>8~ q4 <a a'>
   <fis' b d fis>4. <e g e'>8~ q2
   r4 <e a cis e> <cis' e a cis> <b e g b>
-  <a fis' a>2~ q8 q <b g' b> <c a' c>~
-  q4 <b g' b>8 <a fis' a> r <fis dis' fis>4 <g e' g>8~
+  <a fis' a>2~ q8 q( <b g' b>)-. <c a' c>~
+  q4 <b g' b>8( <a fis' a>)-. r <fis dis' fis>4-. <g e' g>8~
   q2 r8 q8 <a fis' a> <bes g' bes>~
   q4 <a fis' a>8-> <bes g' bes>-> r <c a' c>8-> r <d fis d'>8~->
   q1
@@ -69,8 +69,8 @@ D-secondo-lh = \relative c, {
     fis4.-- cis8~-- cis4 fis--
     b4.-- fis8~-- fis4 b,--
     c4.-- g'8~-- g4 c--
-    a4.-- e8~-- e4 a--
-    d,4.-- d8~-- d4 d'--
+    a4.-- e8~-- e4 a,--
+    d4.-- d8~-- d4 d'--
     b4.-- b8~-- b4 a--
     g4.-- d8~-- d4 g--
     a4.-- e8~-- e4 g--
@@ -79,15 +79,15 @@ D-secondo-lh = \relative c, {
     c4.-- g'8~-- g4 c--
     bes,4.-- bes8~-- bes8 bes4--
   } \\ {
-    \repeat unfold 8 { d,8-. }
+    \repeat unfold 6 { d,8-. } e-. fis-.
     \repeat unfold 6 { fis8-. } \repeat unfold 2 { d8-. }
     \repeat unfold 8 { g8-. }
     \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { g8-. }
     \repeat unfold 3 { fis8-. } \repeat unfold 3 { cis8-. } \repeat unfold 2 { fis8-. }
     \repeat unfold 3 { b8-. } \repeat unfold 3 { fis8-. } \repeat unfold 2 { b,8-. }
     \repeat unfold 3 { c8-. } \repeat unfold 3 { g'8-. } \repeat unfold 2 { c8-. }
-    \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { a8-. }
-    \repeat unfold 6 { d,8-. } \repeat unfold 2 { d'8-. }
+    \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { a,8-. }
+    \repeat unfold 6 { d8-. } \repeat unfold 2 { d'8-. }
     \repeat unfold 6 { b8-. } \repeat unfold 2 { a8-. }
     \repeat unfold 3 { g8-. } \repeat unfold 3 { d8-. } \repeat unfold 2 { g8-. }
     \repeat unfold 3 { a8-. } \repeat unfold 3 { e8-. } \repeat unfold 2 { g8-. }
