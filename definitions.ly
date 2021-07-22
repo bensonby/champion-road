@@ -6,3 +6,4 @@ csr = \change Staff = "up"
 csl = \change Staff = "down"
 
 shpSlurA = \shape #'((0.0 . 0.0) (0 . 0.0) (0 . 0.0) (0 . 5.5)) PhrasingSlur
+cresc = \markup \italic \larger "cresc."

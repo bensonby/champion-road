@@ -21,7 +21,7 @@ A-primo-rh = \relative c'' {
     s8 \cl \clef treble \stemNeutral \shpSlurA c16\( d e
     \once \override Glissando.style = #'dashed-line
     f
-    \glissando \cr g a bes c
+    \glissando \cr \stemUp g a bes c \stemNeutral
     d2--\)
   } >>
 }
