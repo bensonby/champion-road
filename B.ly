@@ -17,7 +17,7 @@ B-primo-rh = \relative c''' {
   fis4.-- e8~-- e2
 
   fis2~-- fis8 e( g)-. fis-.
-  \appoggiatura { e16 fis } e4.-- bes8~---. bes c4---. <fis, d'>8~--
+  \appoggiatura { e16 fis } e4.-- bes8~-- bes c4-- <fis, d'>8~--
   q1
   \ottava #0
   R1
@@ -26,9 +26,9 @@ B-primo-rh = \relative c''' {
 B-primo-lh = \relative c'' {
   d2-- r8 cis( e)-. d-.
   a2-- r8 fis( g)-. a-.
-  << { a4.-- gis8~-- gis2 s1 } \\ { r2 r4 \makeOctaves 1 { e,4-- fis4.(-- gis8)-. r b4---. d8---. } } >>
+  << { a4.-- gis8~-- gis2 s1 s2 } \\ { r2 r4 \makeOctaves 1 { e,4-- fis4.(-- gis8)-. r b4---. d8---. e2-- } } >>
 
-  <e e'>2\)-- r8 dis'( fis)-. e-.
+  r8 dis'( fis)-. e-.
   d4.-- c8~-- c bes8 r c8-.
   << { \appoggiatura { bes16 c } bes4.-- a8~-- a2 s1 } \\ { r4 fis8-. a8-. r <d d,>8-. r <e e,>8~-- \stemNeutral <e e,>4 <a, a,>8( <e' e,>)-. b8\rest <fis' fis,>4.-- } >>
 
@@ -39,7 +39,7 @@ B-primo-lh = \relative c'' {
     fis4.-- e8~-- e2
 
     fis2~-- \stemNeutral fis8 e( g)-. fis-.
-    \appoggiatura { e16 fis } e4.-- bes8~---. bes c4---. d8~--
+    \appoggiatura { e16 fis } e4.-- bes8~-- bes c4-- d8~--
     d1
   } \\ {
     s1
@@ -68,7 +68,7 @@ B-secondo-rh = \relative c' {
   \clef treble
   \repeat unfold 5 { <a c e>8-. } <a c dis>-. <a c fis>-. <a c e>-.
   \repeat unfold 3 { <fis b dis>8-. } \repeat unfold 5 { <b dis>8-. }
-  \repeat unfold 5 { <b e>8-. } <b d>-. <d fis>-. <e g>-.
+  \repeat unfold 5 { <b e>8-. } <b d?>-. <d fis>-. <e g>-.
   <d g bes>8-. <d g>-. q-. q-. q-. <bes d>-. q-. q-.
   \repeat unfold 4 { <a d fis>8-. } \repeat unfold 2 { <a d>8-. } \repeat unfold 2 { <d fis a>8-. }
   \repeat unfold 3 { <g, bes c e>8-. } <g bes>8-. q-. <e g c>-. q-. <fis a d>~

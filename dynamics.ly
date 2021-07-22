@@ -1,10 +1,11 @@
 primo-dynamics = {
-  s4 s2.\f s1*3
+  s4 \dynamicShiftA s2.\f s1*3
 
   % A
   s1\mp s1*14 s2 s4..\< s16\!
 
   % B
+  \dynamicShiftB
   s1\mf s1*15
 
   % C
@@ -16,23 +17,25 @@ primo-dynamics = {
   % outro
   s1\p s1*3
 
-  s1-\cresc s1
+  \dynamicTextShiftA
+  \crescTextCresc s1\< s2 s4... s32\!
 
   % ending
   s1\f
 }
 
 secondo-dynamics = {
-  s1\f s1 s1\fp s1
+  s1\f s1 \dynamicShiftB s1\fp s1
 
   % A
   s1\mp s1*14 s2 s4..\< s16\!
 
   % B
-  s1\mf s1*14 s2. s4\mp
+  \dynamicShiftB
+  s1\mf s1*14 s2. \dynamicShiftA s4\mp
 
   % C
-  s1*7 s2. s4\mf s1*4 s1\p \tuplet 3/2 2 { s4 s2\cresc } s2 s1 s2. s4\f
+  s1*7 s2. s4\mf s1*4 \dynamicShiftA s1\p \tuplet 3/2 2 { s4 s2-\cresc } s2 s1 s2. s4\f
 
   % D
   s1*16
@@ -40,7 +43,8 @@ secondo-dynamics = {
   % outro
   s1\fp s1*3
 
-  s1\cresc s1
+  \dynamicTextShiftB
+  \crescTextCresc s1\< s2 s4... s32\!
 
   % ending
   s1\f

@@ -2,16 +2,16 @@ world-clear-primo-rh = \relative c''' {
   \key f \major
   a8.\( bes16 c8-. f->~ f2\)
   a,8.\( bes16 c8-. f->~ f4 g\)
-  r8 r16 \ottava #1 bes~ bes4 a8. f16 g8. f16~
-  f2 \appoggiatura { g16 a bes c d e } f4->-. \ottava #0 r4
+  r8 r16 \ottava #1 bes~\( bes4 a8. f16 g8. f16~--
+  f2\) \appoggiatura { g16 a bes c d e } f4->-. \ottava #0 r4
 }
 
 world-clear-primo-lh = \relative c'' {
   \key f \major
   a8.\( bes16 c8-. f->~ f2\)
   a,8.\( bes16 c8-. f->~ f4 g\)
-  r8 r16 bes~ bes4 a8. f16 g8. f16~
-  f2 \appoggiatura { g16 a bes c d e } f4->-. r4
+  r8 r16 bes~\( bes4 a8. f16 g8. f16~--
+  f2\) \appoggiatura { g16 a bes c d e } f4->-. r4
 }
 
 world-clear-secondo-rh = \relative c''' {
@@ -25,7 +25,7 @@ world-clear-secondo-rh = \relative c''' {
     \stemNeutral <a c f>8.( g'16 a8-.)
     <des, f bes>~-> \stemDown q2
   } >>
-  r8 r16 <d f bes d>~ q4 <f a c>8. c16 <g' bes>8. <c, f a>16~ q2 r2
+  r8 r16 <d f bes d>~-> q4 <f a c>8. c16 <g' bes>8. <c, f a>16~-- q2 r2
 }
 
 world-clear-secondo-lh = \relative c, {
@@ -38,5 +38,5 @@ world-clear-secondo-lh = \relative c, {
     s2 r8 r16 \ottava #-1 ees16 ees,4 \ottava #0
     s2 r8 r16 \ottava #-1 des'16 des,4
   } >>
-  <c c'>2 q8. <d d'>16 <e e'>8. <f f'>16~ q2 f4-.-> \ottava #0 r4
+  <c c'>2-> q8. <d d'>16 <e e'>8. <f f'>16~-- q2 f4-.-> \ottava #0 r4
 }
