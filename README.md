@@ -122,7 +122,7 @@ time.map((v, i) => "[x][" + (i + 2) + ":v] overlay=1062:0:enable='between(t,"+v+
 ```
 
 
-## Description
+## Description (too long, not used)
 
 Dedicated to all Super Mario lovers who have spent countless hours on playing the Champion's Road.
 
@@ -130,47 +130,94 @@ Sheet Music Download:
 
 Analysis:
 
-bar 1-3: The melody played by primo is two octaves apart, creating a more sonorous effect compared to using only one octave apart. Also note that the intro starts as the harmonic progression of bVI -> bVII -> I. The uses of flat sixths and flat sevenths are common throughout the piece.
+00:00 bar 1-3: The melody played by primo is two octaves apart, creating a more sonorous effect compared to using only one octave apart. Also note that the intro starts as the harmonic progression of bVI -> bVII -> I. The uses of flat sixths and flat sevenths are common throughout the piece.
 
-bar 3 onwards: Secondo RH has to be played quietly but with momentum, keeping the pulse. The 16th note in the LH is quite hard for the alignment against RH so it is worth more attention when playing. In each bar, this 16th staccato also anticipates the following tenuto note in the 2-and beat of the bass.
+00:04 bar 3 onwards: Secondo RH has to be played quietly but with momentum, keeping the pulse. The 16th note in the LH is quite hard for the alignment against RH so it is worth more attention when playing. In each bar, this 16th staccato also anticipates the following tenuto note in the 2-and beat of the bass.
 
-bar 5 onwards: The articulations of the melody in Primo are to be carefully observed. The ornaments are short and clean decorations to the melody which give the tune the joyful color played by the woodwind in the soundtrack.
+00:07 bar 5 onwards: The articulations of the melody in Primo are to be carefully observed. The ornaments are short and clean decorations to the melody which give the tune the joyful color played by the woodwind in the soundtrack.
 
-bar 11-14: (Secondo LH) Notice the descending chromatic bass line from D to B over the 4 bars. The same occurs in bar 27-30 too.
+00:16 bar 11-14: (Secondo LH) Notice the descending chromatic bass line from D to B over the 4 bars. The same occurs in bar 27-30 too.
 
-bar 21: The melody is now passed to the strings and is played as octaves by Primo. The texture in Secondo is thicker with up to 3-note chords in the RH and denser rhythm in LH while the distinctive rhythm of the 16th note is still present in the bass.
+00:30 bar 21: The melody is now passed to the strings and is played as octaves by Primo. The texture in Secondo is thicker with up to 3-note chords in the RH and denser rhythm in LH while the distinctive rhythm of the 16th note is still present in the bass.
 
-bar 21-27: (Secondo LH) Notice how the bass D remains unchanged over the several chords, acting as pedal point. (I -> II7_d -> iv_c -> I)
+00:32 bar 21-27: (Secondo LH) Notice how the bass D remains unchanged over the several chords, acting as pedal point. (I -> II7_d -> iv_c -> I)
 
-bar 23-25: The countermelody in Primo LH represents the brass which is a great contrast against the melody played by the strings. The same occurs in bar 27-28 too. In bar 23-24 Secondo RH has to play the chords above Primo's LH to avoid hand collisions.
+00:34 bar 23-25: The countermelody in Primo LH represents the brass which is a great contrast against the melody played by the strings. The same occurs in bar 27-28 too. In bar 23-24 Secondo RH has to play the chords above Primo's LH to avoid hand collisions.
 
-bar 29: The melody is joined by the trumpet, reaching the climax of the first section of the piece.
+00:43 bar 29: The melody is joined by the trumpet, reaching the climax of the first section of the piece.
 
-bar 32: Primo LH has a descending line which is a legato countermelody.
+00:48 bar 32: Primo LH has a descending line which is a legato countermelody.
 
-bar 37: The second section starts quietly with an expressive saxphone melody played by Secondo. The arpeggios in Primo resembles the harp. Pedal can be applied in this section, until the end of bar 44. An alternative flat 7th minor chord and tonic chord serves as the harmony of this section.
+00:55 bar 37: The second section starts quietly with an expressive saxphone melody played by Secondo. The arpeggios in Primo resembles the harp. Pedal can be applied in this section, until the end of bar 44. An alternative flat 7th minor chord and tonic chord serves as the harmony of this section.
 
-bar 40: The C# in Secondo LH needs to be played softly to create a minimal dissonance with the tied note (D) while still acting as a passing chromatic bass note to the next C natural.
+01:00 bar 40: The C# in Secondo LH needs to be played softly to create a minimal dissonance with the tied note (D) while still acting as a passing chromatic bass note to the next C natural.
 
-bar 43-44: Secondo LH has a melodic line which is worth a little highlight.
+01:04 bar 43-44: Secondo LH has a melodic line which is worth a little highlight.
 
-bar 45-48: The key center is momentarily changed to Bb major. Primo RH (trumpet) and Secondo RH (saxophones) are like singing a duet. Also notice the descending bass line in Secondo LH from Bb to the E in bar 49. To preserve the staccato background harmony played softly by Primo LH, no pedal is necessary.
+01:08 bar 45-48: The key center is momentarily changed to Bb major. Primo RH (trumpet) and Secondo RH (saxophones) are like singing a duet. Also notice the descending bass line in Secondo LH from Bb to the E in bar 49. To preserve the staccato background harmony played softly by Primo LH, no pedal is necessary.
 
-bar 49-50: The dynamics suddenly becomes soft, which paves the way to the climax section of the entire piece through the crescendo. Primo RH resembles the harp again, where towards the end of bar 50 the right hand needs to be on top of Secondo's RH to avoid hand collisions. Pedal can be applied from here till the end of the climax.
+01:13 bar 49-50: The dynamics suddenly becomes soft, which paves the way to the climax section of the entire piece through the crescendo. Primo RH resembles the harp again, where towards the end of bar 50 the right hand needs to be on top of Secondo's RH to avoid hand collisions. Pedal can be applied from here till the end of the climax.
 
-bar 52: Notice the interesting sound effect brought by the minor dominant chord (C natural) preceding the climax section, instead of the common major chord with a C# in a usual perfect cadence. The G and A in the 5-note chord in Primo RH is to be played both by the thumb.
+01:18 bar 52: Notice the interesting sound effect brought by the minor dominant chord (C natural) preceding the climax section, instead of the common major chord with a C# in a usual perfect cadence. The G and A in the 5-note chord in Primo RH is to be played both by the thumb.
 
-bar 53-68: The climax (aka the hardest part of this piano duet). For Secondo, the difficulty lies in keeping the melody in form of large chords standing out with consistent sound quality while being disturbed by Primo's hands. LH has both a sustaining tenuto syncopated rhythm and a bass staccato notes giving the pulse and the momentum. For Primo, the notes are difficult to play by itself and are with irregular patterns. They are sweeping across the keyboard and Secondo's right hand. To
+01:19 bar 53-68: The climax (aka the hardest part of this piano duet). For Secondo, the difficulty lies in keeping the melody in form of large chords standing out with consistent sound quality while being disturbed by Primo's hands. LH has both a sustaining tenuto syncopated rhythm and a bass staccato notes giving the pulse and the momentum. For Primo, the notes are difficult to play by itself and are with irregular patterns. They are sweeping across the keyboard and Secondo's right hand. To
 avoid hand collisions, Secondo's RH needs to keep playing in a low position while Primo's LH needs to keep playing above Secondo's RH. Musically, Primo's passage produces an atmospheric effect, giving an additional layer of colors to the existing bass and the melody through the non-chord tones and the contour (where these non-chord tones are extra additions in this arrangement, not present in the original soundtrack). The stemmed-up high notes in the Primo RH treble clef in each of bar 53, 54,
 61 and 62 are to be played by the left hand.
 
-bar 53-54: Notice the difference chord voicing in the Second RH first beat due to the different bass notes. In bar 53 it uses F# against the D bass; while in bar 54 it uses A against the F# bass in first inversion.
+01:22 bar 53-54: Notice the difference chord voicing in the Second RH first beat due to the different bass notes. In bar 53 it uses F# against the D bass; while in bar 54 it uses A against the F# bass in first inversion.
 
-bar 57-58: Pedalling needs to be carefully released and re-applied to produce the staccato effect in the melody. The tenuto notes in the bass have to be sustained by the fingers when the pedal is off. The same applies to bar 65, 66 and 68.
+01:26 bar 57-58: Pedalling needs to be carefully released and re-applied to produce the staccato effect in the melody. The tenuto notes in the bass have to be sustained by the fingers when the pedal is off. The same applies to bar 65, 66 and 68.
 
-bar 69-72: After the intense climax, the music calms down for the repeats. If Secondo's hand cannot span a 9th in bar 71, the C can be played by Primo's right hand. Primo's LH can play by keeping the fingers close to the keyboard in order to produce a consistent soft sound.
+01:45 bar 69-72: After the intense climax, the music calms down for the repeats. If Secondo's hand cannot span a 9th in bar 71, the C can be played by Primo's right hand. Primo's LH can play by keeping the fingers close to the keyboard in order to produce a consistent soft sound.
 
-bar 73: In the soundtrack and as in the game, the music loops forever. To enable a complete performance of this soundtrack as a piano duet, an ending (coda) has been added. The rising chords in Secondo RH and the crescendo lead to the coda.
+03:32 bar 73: In the soundtrack and as in the game, the music loops forever. To enable a complete performance of this soundtrack as a piano duet, an ending (coda) has been added. The rising chords in Secondo RH and the crescendo lead to the coda.
 
-bar 75-78: The coda is the world clear soundtrack! Let's celebrate for clearing this crazy stage! (Ironically we haven't cleared it yet...) The pedal needs to be released on the staccato note of Secondo, and reapplied and holds till the end of the bar. Besides for the rich musical effect, sustaining the pedal can also allow Primo's hands to release their long notes momentarily to give more space for Secondo's right hand to move quickly for the high notes. It is also worth noting that there is a descending bass line
+03:35 bar 75-78: The coda is the world clear soundtrack! Let's celebrate for clearing this crazy stage! (Ironically we haven't cleared it yet...) The pedal needs to be released on the staccato note of Secondo, and reapplied and holds till the end of the bar. Besides for the rich musical effect, sustaining the pedal can also allow Primo's hands to release their long notes momentarily to give more space for Secondo's right hand to move quickly for the high notes. It is also worth noting that there is a descending bass line
 from bar 75-76, followed by the ascending bass in bar 77 to conclude the world clear music.
+
+## Description (trimmed down for youtube 5000 characters)
+
+Dedicated to all Super Mario lovers who have spent countless hours on playing the Champion's Road.
+
+Arranged for Piano Four Hands by Benson
+Primo: 🐳
+Secondo: Benson
+
+Sheet Music Download: https://music.bensonby.me/2021/09/13/champions-road/
+
+Analysis:
+
+00:00 bar 1-3: The melody played by primo is two octaves apart giving a more sonorous effect. The intro starts with the harmonic progression bVI-bVII-I. The uses of flat 6ths and flat 7ths are common throughout.
+
+00:04 bar 3: Secondo RH is played quietly but with momentum, keeping the pulse. The 16th note in the LH is hard for the alignment against RH so it is worth more attention. In each bar, this 16th staccato also anticipates the following tenuto note.
+
+00:07 bar 5: the articulations of the Primo melody have to be observed. The ornaments are short and clean decorations to the melody which give the tune the joyful color (played by woodwind in the soundtrack)
+
+00:16 bar 11-14: Note the Secondo LH descending chromatic bass line from D to B over the 4 bars. Same for bar 27-30.
+
+00:30 bar 21: the melody is passed to the strings and played as octaves. The texture in Secondo is thicker with 3-note chords in RH and denser rhythm in LH.
+
+00:32 bar 21-27: The bass D remains unchanged over several chords, acting as pedal point (I, II7d, iv c, I).
+
+00:34 bar 23-25: The countermelody in Primo LH represents the brass, a contrast to the melody by the strings. In bar 23-24 Secondo RH has to play above Primo LH to avoid hand collisions. Same for bar 27-28.
+
+00:55 bar 37: The second section starts quietly with an expressive saxophone melody played by Secondo. The arpeggios in Primo resembles the harp. Pedal can be applied in this section until the end of bar 44. Alternative flat 7th minor and tonic chords serves as the harmony of this section.
+
+01:00 bar 40: The C# in Secondo LH is played softly to create a minimal dissonance with the tied D while still acting as a passing chromatic bass to the C natural.
+
+01:08 bar 45-48: The key center is momentarily changed to Bb major. Primo RH (trumpet) and Secondo RH (saxophones) are as a duet. Note the descending bass line in Secondo LH from Bb to the E in bar 49. To preserve the staccato background harmony of Primo LH, no pedal is needed.
+
+01:13 bar 49-50: Sudden drop in dynamics paves the way to the climax of the whole piece after the cresc. Primo RH resembles the harp again; towards the end of bar 50 RH needs to be on top of Secondo RH to avoid hand collisions. Pedal can be applied from here till the end of the climax.
+
+01:18 bar 52: Note the interesting effect of the minor dominant chord (C natural), instead of the common major chord (C#) in a usual perfect cadence. The G and A in the 5-note chord in Primo RH is both played by the thumb.
+
+01:20 bar 53-68: The climax (aka the hardest part of this piano duet). For Secondo, the difficulty lies in keeping the melody in form of large chords standing out with consistent sound quality while disturbed by Primo's hands. LH has both sustaining tenuto syncopated rhythms and bass staccato notes giving the pulse and the momentum. For Primo, the notes are difficult to play and are not regular. They are sweeping across the keyboard and Secondo RH. To
+avoid hand collisions, Secondo RH needs to play in a low position while Primo LH needs to play above Secondo RH. Musically, Primo's passage produces an atmospheric effect, giving an additional layer of colors to the existing bass and the melody through the non-chord tones and the contour (these non-chord tones are extra additions in this arrangement, not present in the original soundtrack). The stemmed-up high notes in the Primo RH treble clef in each of bar 53/54/61/62 are played by the left hand.
+
+01:26 bar 57-58: Pedalling needs to be carefully released and re-applied to produce the staccato effect in the melody. The tenuto notes in the bass have to be sustained by fingers when the pedal is off. The same applies to bar 65/66/68.
+
+01:45 bar 69-72: After the intense climax, the music calms down for the repeats. If Secondo's hand cannot span a 9th in bar 71, the C can be played by Primo RH. Primo LH can play with fingers close to the keyboard to produce a consistent soft sound.
+
+03:32 bar 73: In the soundtrack/game, the music loops forever. To enable a complete performance of this soundtrack as a piano duet, an ending (coda) has been added. The rising chords in Secondo RH and the crescendo lead to the coda.
+
+03:35 bar 75-78: The coda is the world clear music! Let's celebrate for clearing this crazy stage! (Ironically we haven't cleared it yet...) The pedal needs to be released on the staccato note in Secondo, then reapplied and holds till the end of the bar. Other than the rich musical effect, holding the pedal also allows Primo's hands to release the long notes momentarily to give Secondo RH more space to move quickly for the high notes. Also note the descending (bar 75-76) then ascending (bar 77) bass line to conclude the world clear music.
