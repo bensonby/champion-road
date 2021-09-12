@@ -33,7 +33,7 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 
 \header {
   title = "Champion's Road from Super Mario 3D World"
-  subtitle = "Piano Four Hands Version"
+  subtitle = "For Piano Four Hands"
   composer = "Mahito Yokota, Toru Minegishi, Yasuaki Iwata, and Koji Kondo"
   arranger = "Arranged by Benson Yeung"
 }
@@ -46,7 +46,7 @@ global = {
 primo-rh = {
   \global
   \clef treble
-  \tempo "Animato con brio" 4 = 152
+  \tempo "With spirit and momentum" 4 = 152
   \intro-primo-rh
   \repeat volta 2 {
     \A-primo-rh
@@ -60,6 +60,7 @@ primo-rh = {
     \outro-C-primo-rh
   }
   \outro-D-primo-rh
+  \tempo "World clear!"
   \world-clear-primo-rh
   \bar "|."
 }

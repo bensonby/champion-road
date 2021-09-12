@@ -22,6 +22,6 @@ intro-secondo-lh = \relative c,, {
   \ottava #-1
   bes4.-- f'8~-- f4 bes4--
   c,4.-- c'8~-- c8 b?-- g-- e-- \ottava #0
-  <d d'>8.(-> a''16)-. r8 d8~( d4. a8)
-  d,8.( g16)-. r8 c8~( c4. g8)
+  <d d'>8.(-> a''16)-. r8 d8~(-- d4. a8)
+  d,8.( g16)-. r8 c8~(-- c4. g8)
 }

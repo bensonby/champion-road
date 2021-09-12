@@ -35,7 +35,7 @@ secondo-dynamics = {
   s1\mf s1*14 s2. \dynamicShiftA s4\mp
 
   % C
-  s1*7 s2. s4\mf s1*4 \dynamicShiftA s1\p \tuplet 3/2 2 { s4 s2-\cresc } s2 s1 s2. s4\f
+  s1*7 s2. s4\mf s1*4 s1\p \tuplet 3/2 2 { s4 s2-\cresc } s2 s1 s2. s4\f
 
   % D
   s1*16
@@ -43,7 +43,6 @@ secondo-dynamics = {
   % outro
   s1\fp s1*3
 
-  \dynamicTextShiftB
   \crescTextCresc s1\< s2 s4... s32\!
 
   % ending
