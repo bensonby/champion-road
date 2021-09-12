@@ -53,7 +53,7 @@ B-primo-lh = \relative c'' {
 
 B-secondo-rh = \relative c' {
   \repeat unfold 8 { <a d fis>8-. }
-  \repeat unfold 8 { <a d fis>8-. }
+  \repeat unfold 5 { <a d fis>8-. } <a d>-. q-. <a d fis>-.
   \repeat unfold 6 { <gis b e>8-. } \repeat unfold 2 { <gis b>8-. }
   \repeat unfold 3 { <gis b>8-. } b-. b-. <e, gis>-. q-. <gis b>-.
   \repeat unfold 3 { <g bes>8-. } \repeat unfold 5 { <g bes e>8-. }

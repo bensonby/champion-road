@@ -151,3 +151,60 @@ secondo-lh = {
   \midi {
   }
 }
+
+\book {
+  \bookOutputSuffix "mini"
+  #(set! paper-alist (cons '("snippet" . (cons (* 109 mm) (* 137.16 mm))) paper-alist))
+  \header {
+    piece = "Champion's Road"
+    opus = "Arranged by Benson Yeung"
+    title = ""
+    subtitle = ""
+    subsubtitle = ""
+    composer = ""
+    arranger = ""
+  }
+  \paper {
+    #(set-paper-size "snippet")
+    indent = 0
+    tagline = ##f
+    print-all-headers = ##f
+    evenHeaderMarkup = ##f
+    oddHeaderMarkup = ##f
+    evenFooterMarkup = ##f
+    oddFooterMarkup = ##f
+    % top-margin = 1\mm
+    top-markup-spacing.basic-distance = #1 %-dist. from bottom of top margin to the first markup/title
+    markup-system-spacing.basic-distance = #2 %-dist. from header/title to first system
+    top-system-spacing.basic-distance = #0.6 %-dist. from top margin to system in pages with no titles
+    system-system-spacing.basic-distance = #1 %-dist. from top margin to system in pages with no titles
+    last-bottom-spacing.basic-distance = #0.3 %-pads music from copyright block
+  }
+
+  \score {
+    \new StaffGroup <<
+      \new PianoStaff <<
+        \new Staff = "up" { \keepWithTag #'mini \primo-rh }
+        \new Dynamics = "dynamics" { \keepWithTag #'mini \primo-dynamics }
+        \new Staff = "down" { \keepWithTag #'mini \primo-lh }
+      >>
+      \new PianoStaff <<
+        \new Staff = "up" { \keepWithTag #'mini \secondo-rh }
+        \new Dynamics = "dynamics" { \keepWithTag #'mini \secondo-dynamics }
+        \new Staff = "down" { \keepWithTag #'mini \secondo-lh }
+      >>
+    >>
+    \layout {
+      #(layout-set-staff-size 14)
+      \context {
+        % add the RemoveEmptyStaffContext that erases rest-only staves
+        \Staff \RemoveEmptyStaves
+      }
+      \context {
+        \Score
+        % Remove all-rest staves also in the first system
+        \override VerticalAxisGroup.remove-first = ##t
+      }
+    }
+  }
+}
